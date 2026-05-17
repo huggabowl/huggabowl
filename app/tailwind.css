@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Page background + sensible defaults */
+html,
+body {
+  @apply bg-stone-50 text-stone-900 antialiased;
+}

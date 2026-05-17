@@ -1,0 +1,21 @@
+node_modules
+.DS_Store
+
+# environment
+.env
+.env.local
+.env.*.local
+
+# build output
+build
+.react-router
+
+# netlify
+.netlify
+
+# tests
+coverage
+
+# logs
+*.log
+npm-debug.log*

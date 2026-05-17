@@ -1,0 +1,57 @@
+{
+  "name": "huggabowl",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Huggabowl charity website — React Router v7 on Netlify",
+  "type": "module",
+  "scripts": {
+    "dev": "react-router dev",
+    "build": "react-router build",
+    "start": "react-router-serve ./build/server/index.js",
+    "typecheck": "react-router typegen && tsc --noEmit",
+    "lint": "oxlint",
+    "format": "oxfmt .",
+    "format:check": "oxfmt --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@base-ui/react": "^1.4.1",
+    "@mdx-js/react": "^3.1.1",
+    "@react-router/node": "^7.15.1",
+    "@react-router/serve": "^7.15.1",
+    "gray-matter": "^4.0.3",
+    "isbot": "^5.1.40",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-router": "^7.15.1",
+    "stripe": "^22.1.1"
+  },
+  "devDependencies": {
+    "@mdx-js/rollup": "^3.1.1",
+    "@netlify/vite-plugin-react-router": "^3.1.1",
+    "@react-router/dev": "^7.15.1",
+    "@react-router/fs-routes": "^7.15.1",
+    "@tailwindcss/vite": "^4.3.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^25.8.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "@vitest/coverage-v8": "^4.1.6",
+    "jsdom": "^29.1.1",
+    "oxfmt": "^0.50.0",
+    "oxlint": "^1.65.0",
+    "remark-frontmatter": "^5.0.0",
+    "remark-mdx-frontmatter": "^5.2.0",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.13",
+    "vitest": "^4.1.6"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
