@@ -1,0 +1,9 @@
+.agents/
+.claude/
+build/
+.react-router/
+node_modules/
+coverage/
+.netlify/
+pnpm-lock.yaml
+package-lock.json

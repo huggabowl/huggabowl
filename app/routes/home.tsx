@@ -14,14 +14,12 @@ export function meta(_args: Route.MetaArgs) {
 
 const PRESS_QUOTES = [
   {
-    headline:
-      "Olympic Plaza food vendor pays it forward with free soup for those in need.",
+    headline: "Olympic Plaza food vendor pays it forward with free soup for those in need.",
     outlet: "CTV News",
     tilt: -1.2,
   },
   {
-    headline:
-      "Pay or don't: Calgary food stand seeks to address food insecurity.",
+    headline: "Pay or don't: Calgary food stand seeks to address food insecurity.",
     outlet: "CityNews",
     tilt: 1.5,
   },
@@ -67,9 +65,8 @@ function Hero() {
             </span>
           </h1>
           <p className="mt-8 max-w-2xl text-lg leading-relaxed text-ink sm:text-xl">
-            Hot soup from a volunteer-run cart at Olympic Plaza. Pay $5 for
-            lunch and a second bowl goes to a neighbour facing food insecurity,
-            no questions asked.
+            Hot soup from a volunteer-run cart at Olympic Plaza. Pay $5 for lunch and a second bowl
+            goes to a neighbour facing food insecurity, no questions asked.
           </p>
           <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-4">
             <Link
@@ -100,9 +97,7 @@ function MathBeat() {
   return (
     <section className="border-b-2 border-ink bg-egg">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32">
-        <p className="font-display text-xs tracking-[0.28em] text-ink uppercase">
-          The math
-        </p>
+        <p className="font-display text-xs tracking-[0.28em] text-ink uppercase">The math</p>
         <h2
           aria-label="Five dollars equals two meals."
           className="mt-6 font-display text-6xl leading-[0.9] tracking-tight text-ink uppercase sm:text-8xl md:text-[8.5rem]"
@@ -124,10 +119,7 @@ function MathBeat() {
           <StepDivider />
           <Step n="2" body="We hand you lunch." />
           <StepDivider />
-          <Step
-            n="3"
-            body="We hand a second bowl to a neighbour, no questions asked."
-          />
+          <Step n="3" body="We hand a second bowl to a neighbour, no questions asked." />
         </div>
         <div className="mt-14">
           <Link
@@ -174,9 +166,7 @@ function CartBeat() {
     <section className="border-b-2 border-ink bg-bone">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-24 sm:py-28 md:grid-cols-[1fr_1.05fr] md:items-center md:gap-16">
         <div className="order-2 md:order-1">
-          <p className="font-display text-xs tracking-[0.28em] text-ink uppercase">
-            At the cart
-          </p>
+          <p className="font-display text-xs tracking-[0.28em] text-ink uppercase">At the cart</p>
           <h2 className="mt-6 max-w-md font-display text-5xl leading-tight tracking-tight text-ink uppercase sm:text-6xl">
             We park at Olympic Plaza.
           </h2>
@@ -184,9 +174,7 @@ function CartBeat() {
             Hours follow the cart's socials. Walk up, paying or not.
           </p>
           <div className="mt-8 inline-block border-2 border-ink bg-bone-deep px-6 py-5">
-            <p className="text-xs font-bold tracking-widest text-fog uppercase">
-              When we're open
-            </p>
+            <p className="text-xs font-bold tracking-widest text-fog uppercase">When we're open</p>
             <p className="mt-2 font-display text-2xl leading-tight text-ink uppercase">
               Seasonal &amp; weather-dependent
             </p>
@@ -211,10 +199,7 @@ function CartBeat() {
           desktop, 5/4 on mobile.
         */}
         <div className="relative order-1 aspect-[5/4] overflow-hidden border-2 border-ink bg-egg md:order-2 md:aspect-[4/5]">
-          <CartSilhouette
-            aria-hidden
-            className="absolute inset-0 m-auto h-2/3 w-2/3 text-bone"
-          />
+          <CartSilhouette aria-hidden className="absolute inset-0 m-auto h-2/3 w-2/3 text-bone" />
           <div className="absolute right-3 bottom-3 border-2 border-ink bg-bone px-3 py-1 font-display text-[0.65rem] tracking-widest text-ink uppercase">
             Photo coming soon
           </div>
@@ -259,10 +244,7 @@ function PressQuote({
   tilt: number;
 }) {
   return (
-    <figure
-      className="text-ink"
-      style={{ transform: `rotate(${tilt}deg)` }}
-    >
+    <figure className="text-ink" style={{ transform: `rotate(${tilt}deg)` }}>
       <blockquote className="font-display text-xl leading-[1.15] tracking-tight uppercase sm:text-2xl">
         <span aria-hidden className="mr-1 font-marker text-egg-deep">
           &ldquo;
@@ -283,9 +265,7 @@ function DoorsBeat() {
   return (
     <section className="border-b-2 border-ink bg-bone">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-28">
-        <p className="font-display text-xs tracking-[0.28em] text-ink uppercase">
-          More ways in
-        </p>
+        <p className="font-display text-xs tracking-[0.28em] text-ink uppercase">More ways in</p>
         <div className="mt-10 grid gap-6 md:grid-cols-12">
           <DoorPanel
             to="/volunteer"
@@ -372,16 +352,12 @@ function DoorPanel({
       to={to}
       className={`group relative flex aspect-square flex-col justify-between border-2 border-ink p-7 transition-colors md:aspect-auto ${background} ${hoverBackground} ${className} ${sizeClass}`}
     >
-      <p className="text-xs font-bold tracking-widest text-ink uppercase">
-        {eyebrow}
-      </p>
+      <p className="text-xs font-bold tracking-widest text-ink uppercase">{eyebrow}</p>
       <div>
         <h3 className="font-display text-3xl leading-tight tracking-tight text-ink uppercase sm:text-4xl md:text-5xl">
           {heading}
         </h3>
-        <p className="mt-4 max-w-sm text-base leading-relaxed text-ink">
-          {body}
-        </p>
+        <p className="mt-4 max-w-sm text-base leading-relaxed text-ink">{body}</p>
         <p className="mt-6 inline-flex items-center gap-3 font-display text-base tracking-wider text-ink uppercase">
           {cta}
           <ArrowRight />
@@ -400,8 +376,7 @@ function DonateStripe() {
           Feed a neighbour.
         </h2>
         <p className="mt-8 max-w-2xl text-lg leading-relaxed text-bone sm:text-xl">
-          Your $5 funds two meals. CRA receipt issued. The cart is
-          volunteer-run.
+          Your $5 funds two meals. CRA receipt issued. The cart is volunteer-run.
         </p>
         <div className="mt-10">
           <Link
@@ -422,11 +397,7 @@ function DonateStripe() {
 
 function ArrowRight() {
   return (
-    <svg
-      aria-hidden
-      viewBox="0 0 26 16"
-      className="h-3.5 w-5 shrink-0"
-    >
+    <svg aria-hidden viewBox="0 0 26 16" className="h-3.5 w-5 shrink-0">
       <path
         d="M2 8.2 Q 12 7.4 21 8.1 M 15 2.4 L 23 8.2 L 14.6 14"
         fill="none"
@@ -439,10 +410,7 @@ function ArrowRight() {
   );
 }
 
-function SteamMark({
-  className,
-  ...rest
-}: React.SVGProps<SVGSVGElement>) {
+function SteamMark({ className, ...rest }: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 120 120" className={className} {...rest}>
       <path
@@ -470,10 +438,7 @@ function SteamMark({
   );
 }
 
-function CartSilhouette({
-  className,
-  ...rest
-}: React.SVGProps<SVGSVGElement>) {
+function CartSilhouette({ className, ...rest }: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 200 200" className={className} {...rest}>
       <path
@@ -490,18 +455,8 @@ function CartSilhouette({
         strokeWidth="3.5"
         strokeLinecap="round"
       />
-      <rect
-        x="62"
-        y="58"
-        width="76"
-        height="6"
-        rx="1.5"
-        fill="currentColor"
-      />
-      <path
-        d="M68 66 L 132 66 L 126 104 L 74 104 Z"
-        fill="currentColor"
-      />
+      <rect x="62" y="58" width="76" height="6" rx="1.5" fill="currentColor" />
+      <path d="M68 66 L 132 66 L 126 104 L 74 104 Z" fill="currentColor" />
       <rect
         x="30"
         y="104"
@@ -511,37 +466,16 @@ function CartSilhouette({
         stroke="currentColor"
         strokeWidth="4"
       />
-      <path
-        d="M30 132 L 170 132"
-        stroke="currentColor"
-        strokeWidth="2"
-      />
-      <circle
-        cx="62"
-        cy="172"
-        r="12"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="4"
-      />
-      <circle
-        cx="138"
-        cy="172"
-        r="12"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="4"
-      />
+      <path d="M30 132 L 170 132" stroke="currentColor" strokeWidth="2" />
+      <circle cx="62" cy="172" r="12" fill="none" stroke="currentColor" strokeWidth="4" />
+      <circle cx="138" cy="172" r="12" fill="none" stroke="currentColor" strokeWidth="4" />
       <circle cx="62" cy="172" r="2.5" fill="currentColor" />
       <circle cx="138" cy="172" r="2.5" fill="currentColor" />
     </svg>
   );
 }
 
-function KnifeMark({
-  className,
-  ...rest
-}: React.SVGProps<SVGSVGElement>) {
+function KnifeMark({ className, ...rest }: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 48 48" className={className} {...rest}>
       <path
@@ -551,20 +485,12 @@ function KnifeMark({
         strokeWidth="3"
         strokeLinejoin="round"
       />
-      <path
-        d="M14 34 L 24 24"
-        stroke="currentColor"
-        strokeWidth="3"
-        strokeLinecap="round"
-      />
+      <path d="M14 34 L 24 24" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
     </svg>
   );
 }
 
-function BoxMark({
-  className,
-  ...rest
-}: React.SVGProps<SVGSVGElement>) {
+function BoxMark({ className, ...rest }: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 48 48" className={className} {...rest}>
       <path
@@ -592,10 +518,7 @@ function BoxMark({
   );
 }
 
-function NewsprintMark({
-  className,
-  ...rest
-}: React.SVGProps<SVGSVGElement>) {
+function NewsprintMark({ className, ...rest }: React.SVGProps<SVGSVGElement>) {
   return (
     <svg viewBox="0 0 48 48" className={className} {...rest}>
       <path
@@ -605,30 +528,10 @@ function NewsprintMark({
         strokeWidth="3"
         strokeLinejoin="round"
       />
-      <path
-        d="M12 16 L 36 16"
-        stroke="currentColor"
-        strokeWidth="3"
-        strokeLinecap="round"
-      />
-      <path
-        d="M12 22 L 30 22"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-      />
-      <path
-        d="M12 27 L 34 27"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-      />
-      <path
-        d="M12 32 L 26 32"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-      />
+      <path d="M12 16 L 36 16" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+      <path d="M12 22 L 30 22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+      <path d="M12 27 L 34 27" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+      <path d="M12 32 L 26 32" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
       <path
         d="M30 42 L 30 30 L 42 30"
         fill="none"
