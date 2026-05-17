@@ -9,28 +9,27 @@ const links = [
 
 export function Nav() {
   return (
-    <header className="border-b border-stone-200 bg-white">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link to="/" className="flex items-center gap-2">
-          <span className="font-serif text-2xl font-extrabold text-orange-700">Huggabowl</span>
+    <header className="border-b-2 border-ink bg-bone">
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-y-3 px-6 py-5">
+        <Link to="/" className="inline-flex items-baseline gap-2">
+          <span className="font-display text-2xl tracking-tight text-ink uppercase sm:text-3xl">
+            Huggabowl
+          </span>
+          <span aria-hidden className="block size-1.5 bg-neon" />
         </Link>
-        <nav className="flex items-center gap-1 text-sm font-medium">
+        <nav className="flex flex-wrap items-center gap-x-1 gap-y-2 text-xs font-semibold tracking-wider uppercase sm:gap-x-3 sm:text-sm">
           {links.map((link) => (
             <NavLink
               key={link.to}
               to={link.to}
-              className={({ isActive }) =>
-                `rounded-md px-3 py-2 transition-colors ${
-                  isActive ? "bg-orange-50 text-orange-800" : "text-stone-700 hover:bg-stone-100"
-                }`
-              }
+              className="marker-underline px-2 py-1.5 text-ink"
             >
               {link.label}
             </NavLink>
           ))}
           <Link
             to="/donate"
-            className="ml-2 rounded-md bg-orange-700 px-4 py-2 text-white shadow-sm transition-colors hover:bg-orange-800"
+            className="ml-1 inline-flex items-center border-2 border-ink bg-neon px-3 py-2 text-ink transition-colors hover:bg-neon-deep sm:px-4"
           >
             Donate
           </Link>
