@@ -1,7 +1,8 @@
-<!-- SEED: re-run /impeccable document once there's code to capture the actual tokens and components. -->
----
+## <!-- SEED: re-run /impeccable document once there's code to capture the actual tokens and components. -->
+
 name: Huggabowl
 description: Buy a meal, give a meal — the visual system for a Calgary cart that feeds neighbours.
+
 ---
 
 # Design System: Huggabowl

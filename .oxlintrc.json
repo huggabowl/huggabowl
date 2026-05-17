@@ -12,6 +12,8 @@
     ".react-router/**",
     "node_modules/**",
     "coverage/**",
-    ".netlify/**"
+    ".netlify/**",
+    ".agents/**",
+    ".claude/**"
   ]
 }

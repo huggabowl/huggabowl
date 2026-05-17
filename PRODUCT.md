@@ -53,7 +53,7 @@ The aesthetic direction is **graffiti + retro-futurist + handmade + slightly rou
 
 ## Design Principles
 
-1. **Dignity over pity.** Run every visual and copy decision against the question *"would a recipient be proud to be associated with this?"* If the answer is no, redo it. Recipients are neighbours, not need-cases.
+1. **Dignity over pity.** Run every visual and copy decision against the question _"would a recipient be proud to be associated with this?"_ If the answer is no, redo it. Recipients are neighbours, not need-cases.
 2. **Streetwise, not slick.** The aesthetic announces local, handmade, real. Slight roughness, asymmetry, marker-drawn marks, mis-aligned tags are features, not bugs. Polish is the failure state — it pulls us toward the corporate-foundation lane we're trying to escape.
 3. **Show the math.** $5 = 2 meals is the central magic trick. Make that arithmetic visible, repeatable, and worth re-reading on every page. Don't bury it under emotional appeal; the math IS the emotional appeal.
 4. **Loud about Calgary, quiet about ourselves.** Local pride is the personality. Self-congratulation isn't. Press coverage, partner shoutouts, and the cart's actual location do more work than any "Our Mission" hero block ever could.
@@ -67,6 +67,7 @@ The aesthetic direction is **graffiti + retro-futurist + handmade + slightly rou
 - **High-contrast pairings audited.** Neon yellow and robin egg blue are notoriously hard to use accessibly for text. Body copy lives on tinted-neutral surfaces with verified contrast; neon yellow is reserved for non-text emphasis (background blocks, marks, large display type at sizes that meet AA Large) unless it explicitly passes against its background.
 
 Audience-driven needs:
+
 - Donors and volunteers skew older — comfortable default body size, generous tap targets on mobile, no reliance on hover-only affordances.
 - Recipients may use older Android phones or shared/library devices — pages must remain usable without JavaScript-heavy interactions for core content (`/visit-us`, cart location, hours).
 - Plain language throughout. Avoid jargon, charity-speak, and acronyms (other than CRA, which gets a short gloss the first time it appears).

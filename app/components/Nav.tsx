@@ -19,11 +19,7 @@ export function Nav() {
         </Link>
         <nav className="flex flex-wrap items-center gap-x-1 gap-y-2 text-xs font-semibold tracking-wider uppercase sm:gap-x-3 sm:text-sm">
           {links.map((link) => (
-            <NavLink
-              key={link.to}
-              to={link.to}
-              className="marker-underline px-2 py-1.5 text-ink"
-            >
+            <NavLink key={link.to} to={link.to} className="marker-underline px-2 py-1.5 text-ink">
               {link.label}
             </NavLink>
           ))}
